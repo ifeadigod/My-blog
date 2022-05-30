@@ -45,9 +45,7 @@ elif environment == 'production':
     ALLOWED_HOSTS = ['ifeblog.herokuapp.com']
     DATABASES = {}
     DATABASES['default'] = dj_database_url.config()
-DEBUG = True
 
-ALLOWED_HOSTS = []
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
